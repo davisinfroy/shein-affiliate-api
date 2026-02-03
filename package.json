@@ -1,0 +1,26 @@
+{
+  "name": "shein-affiliate-api",
+  "version": "1.0.0",
+  "description": "API para generar enlaces de afiliado de SHEIN usando Playwright",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "shein",
+    "affiliate",
+    "playwright",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "playwright": "^1.40.0"
+  }
+}
